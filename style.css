@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  justify-content: center;
+}
+main{
+  background-color: hsl(213, 19%, 18%);
+  border-style: none;
+  border-radius: 2rem;
+  padding: 2rem;
+  width:28rem;
+  text-align: left;
+}
+h1{
+  color: white;
+  font-weight: 700;
+}
+p{
+  font-weight: 400;
+  line-height: 1.5;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+button{
+  font-family: "Overpass",sans-serif;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  border-radius: 2rem;
+  border-style: none;
+  width: 100%;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 -0.4rem 3 3 hsl(216, 12%, 8%);
+}
+button:hover{
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
+
+
+.star_container{
+  background-color: hsl(216, 20%, 25%);
+  border-radius: 100%;
+  border-style: none;
+  width: 2.6rem;
+  height: 2.6rem;
+  text-align: center;
+}
+.simg{
+  margin-top: 0.75rem;
+}
+
+
+.head01{
+  margin-top: 2rem;
+}
+
+
+.text{
+  color:hsl(217, 12%, 63%);
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+.rating{
+  display: flex;
+}
+.circle{
+  background-color: hsl(216, 20%, 25%);
+  color:hsl(217, 12%, 63%);
+  border-radius: 100%;
+  border-style: none;
+  height: 3.5rem;
+  width: 3.5rem;
+}
+.circle:hover{
+  background-color:hsl(217, 12%, 63%);
+  color:white;
+}
+.gap{
+  margin-left: 1.6rem;
+}
+.circle p{
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+
+.button{
+  margin-top: 2rem;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~reply.html page css starts from here*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.thank_you_img{
+  text-align: center;
+  margin-bottom: 1.7rem;
+  margin-top: 1rem;
+}
+
+.user_rating{
+  align-items: center;
+  padding: 0 6rem;
+}
+.user_rating_background{
+  background-color: hsl(216, 20%, 25%);
+  border-radius: 2rem;
+  text-align: center;
+  color: hsl(25, 97%, 53%);
+  padding: 0.2rem;
+
+}
+
+.thank_you{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.message{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+  padding: 0 0.5rem;
+}
