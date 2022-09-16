@@ -93,12 +93,25 @@ button:hover{
   background-color:hsl(217, 12%, 63%);
   color:white;
 }
+.backgroundChange{
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+.backgroundChange:hover{
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
 .gap{
   margin-left: 1.6rem;
 }
 .circle p{
   text-align: center;
   margin-top: 1.2rem;
+}
+.no{
+  height: 0;
+  width:0;
+  margin-left: 1.5rem;
 }
 
 
